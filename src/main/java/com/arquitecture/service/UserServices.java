@@ -1,14 +1,15 @@
 package com.arquitecture.service;
 
 import com.arquitecture.data.UserRepository;
-import com.arquitecture.entity.Role;
 import com.arquitecture.entity.User;
+import io.micronaut.core.annotation.NonNull;
 import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
 
 
 @Singleton
@@ -19,10 +20,9 @@ public class UserServices {
     RoleServices roleServices;
 
 
-    public String saveUserWithRoles(User user) {
+    public String saveUser(User user) {
         try {
             //verify if all roles exist
-
             roleServices.doAllRolesExist(user.getRoles());
             // Encrypt the user's password
             User userEncrypt = encryptPassword(user);
@@ -32,6 +32,30 @@ public class UserServices {
         } catch (Exception e) {
             return "Error saving User: " + e.getMessage();
         }
+    }
+
+    public @NonNull User getUserById(String email) {
+        try {
+            User userResponse = userRepository.findByEmail(email);
+            userResponse.setRoles(userRepository.findDistinctRolesById(userResponse.getId()));
+               return userResponse;
+        } catch (Exception e) {
+            // Handle the exception or log it
+            return null;
+        }
+    }
+
+    public boolean singIn(String email, String password) {
+        try {
+            User userResponse = userRepository.findByEmail(email);
+            PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+            if (userResponse != null && passwordEncoder.matches(password, userResponse.getPassword())) {
+                return true;
+            }
+        } catch (Exception e) {
+            // Handle the exception or log it
+        }
+        return false;
     }
 
     public User encryptPassword(User user) {

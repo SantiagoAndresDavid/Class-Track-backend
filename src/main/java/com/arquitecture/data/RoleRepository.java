@@ -11,3 +11,5 @@ import java.util.List;
 @JdbcRepository(dialect = Dialect.POSTGRES)
 public interface RoleRepository extends CrudRepository<Role, Long> {
 }
+
+
