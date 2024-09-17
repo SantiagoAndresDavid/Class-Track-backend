@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="micronaut.processing.annotations" value="com.arquitecture.*" />
+        <option name="micronaut.processing.group" value="com.arquitecture" />
+        <option name="micronaut.processing.incremental" value="true" />
+        <option name="micronaut.processing.module" value="class-track" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.data/micronaut-data-processor/4.9.3/b68aad592d741d5ae21a9fd5810b4e47506543ce/micronaut-data-processor-4.9.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.openapi/micronaut-openapi/6.12.3/3d2219399ee9d8e92ed4286fabb8960bd4c97358/micronaut-openapi-6.12.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.serde/micronaut-serde-processor/2.11.0/80b47e60ad518244c9ad39186ab2823c8b63c3da/micronaut-serde-processor-2.11.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.data/micronaut-data-model/4.9.3/85d282d1a9590a3ac6c9ea62af46251b48980d61/micronaut-data-model-4.9.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.openapi/micronaut-openapi-annotations/6.12.3/42df144acff5f1ec6f37ea2bb4cea3da569b48fe/micronaut-openapi-annotations-6.12.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.openapi/micronaut-openapi-common/6.12.3/7e1dd3db7844253ec5e19995495f943e3ac70322/micronaut-openapi-common-6.12.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.serde/micronaut-serde-api/2.11.0/da7f0a4239bfd2155f5f9ed11f1d3e97e05821e9/micronaut-serde-api-2.11.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-graal/4.6.5/a3bbcc29195f8a63276bfb8854c86076e0502105/micronaut-graal-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.34/ec547ef414ab1d2c040118fb9c1c265ada63af14/lombok-1.18.34.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-validation/4.6.5/80d6e66b636004551691dab8ecf88e2e4671ae78/micronaut-http-validation-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-inject-java/4.6.5/37288b68bd57a16f6d9817553ad7c6f68a42f3e/micronaut-inject-java-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.17.2/78d2c73dbec62044d7cf3b544b2e0d24a1a093b0/jackson-dataformat-yaml-2.17.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.17.2/267b85e9ba2892a37be6d80aa9ca1438a0d8c210/jackson-datatype-jsr310-2.17.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.17.2/e6deb029e5901e027c129341fac39e515066b68c/jackson-databind-2.17.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger.core.v3/swagger-models/2.2.23/8b9126ed22aa76b0992daf0b58a1350c66a2cca7/swagger-models-2.2.23.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.17.2/147b7b9412ffff24339f8aba080b292448e08698/jackson-annotations-2.17.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.17.2/969a35cb35c86512acbadcdbbbfb044c877db814/jackson-core-2.17.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core-processor/4.6.5/10319d9a5b06331dc2af2b3a21e1d875bc675c9c/micronaut-core-processor-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-websocket/4.6.5/4a3e5ee94510c3e6e5835d15cd621f82acd66d24/micronaut-websocket-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-server/4.6.5/bf628c0874284d7c8da7144b98cd24bb7de55497/micronaut-http-server-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-router/4.6.5/3e4b7f070eaf8e2f1c401be42a9103eb732c9796/micronaut-router-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-client-core/4.6.5/5eaa9929b6337e14f584b8d89521c0b53a79d550/micronaut-http-client-core-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-json-core/4.6.5/b9aff81003b47b48932aa362ba32ca52f0596b6a/micronaut-json-core-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http/4.6.5/9c69a211a1413d3073dadad3476b5b773fdf6ea4/micronaut-http-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-context-propagation/4.6.5/1d628d361fd87de210630b53cc4a2300f5633ff9/micronaut-context-propagation-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-discovery-core/4.6.5/6beccd242d2b0abb4264279dec12518ef945cef6/micronaut-discovery-core-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-context/4.6.5/e6335a4caf52c543ffa22075201c1fb4e9fd87fa/micronaut-context-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-aop/4.6.5/264e758a5bc57b3658ac86cea9973541c80ce076/micronaut-aop-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-inject/4.6.5/277d95820fd01ec31761bbfc2a9c6234af762199/micronaut-inject-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakarta.annotation-api-2.1.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-symbol-solver-core/3.26.2/e276bf1d8913af174529dbd35ff82bb05e396601/javaparser-symbol-solver-core-3.26.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.6.9/2f0a64e3ea9793922afdf7ea0e7250401930de94/reactor-core-3.6.9.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core-reactive/4.6.5/f5fdf9ad1a402f37aa0fbcfbe67682cfc0eb28e3/micronaut-core-reactive-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.4/3864a1320d97d7b045f729a326e1e077661f31b7/reactive-streams-1.0.4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.2/3af797a25458550a16bf89acc8e4ab2b7f2bfce0/snakeyaml-2.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core/4.6.5/681a5ad6fe1f76c3b1f8f59387c9a2b95eea9920/micronaut-core-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/3.1.0/66901fa1c373c6aff65c13791cc11da72060a8d6/jakarta.persistence-api-3.1.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-html2md-converter/0.64.8/a4b9dc984710931e98fdf62479784f789c0f5e6d/flexmark-html2md-converter-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.chhorz/javadoc-parser/0.3.1/29bf2a6bafb5413027527403009b74315690d3bf/javadoc-parser-0.3.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.18.1/cb7cd991d47b44101cbe4655dec611cdc01f8a02/jsoup-1.18.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger.core.v3/swagger-annotations/2.2.23/2e639326775eb3b2895eb220ce0534c9ecea3f8a/swagger-annotations-2.2.23.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.7/e86dda4696d3c185fcc95d8d311904e7ce38a53f/asm-commons-9.7.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.7/e446a17b175bfb733b87c5c2560ccb4e57d69f1a/asm-tree-9.7.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.7/73d7b3086e14beb604ced229c302feff6449723/asm-9.7.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.1/4c28afe1991a941d7702fe1362c365f0a8641d1e/jakarta.inject-api-2.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-emoji/0.64.8/eefbf6a1fb644fa14c3fb74017cf9c97a4879a7c/flexmark-ext-emoji-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-jira-converter/0.64.8/6a1997f1b8c2ef8426c0330d9be41f3f32edb82c/flexmark-jira-converter-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-strikethrough/0.64.8/1851e124c6d85c5c7f3fdbbe066d30a76ad6be44/flexmark-ext-gfm-strikethrough-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-tables/0.64.8/18e37d2e67a346c7c2694dd91944eefd5028608/flexmark-ext-tables-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-wikilink/0.64.8/f443092e4eda97537c449f0ad6c74022f8d5746a/flexmark-ext-wikilink-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-ins/0.64.8/7d095adeebf934f6424d9444af2ec0b2553fecfd/flexmark-ext-ins-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-superscript/0.64.8/e5d22f3ec35ac64504cbc238b0f5c63349815a7f/flexmark-ext-superscript-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util/0.64.8/e7aad89229a58c9ac56e09c04a8f9b012d137bff/flexmark-util-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark/0.64.8/e82621ebed3a6cfa31c52900aaf9a9b6dd3c859d/flexmark-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-format/0.64.8/12bb34f8d1d3d3678b540cb75726414eb910e327/flexmark-util-format-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-ast/0.64.8/9904d6c8e7c9e2ec63b77e9313e518918758dd84/flexmark-util-ast-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-builder/0.64.8/79f4593ce00d99b786425cabb12cc13bf785374b/flexmark-util-builder-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-dependency/0.64.8/392bc415728aee6fdb9aded0004b0bf6c15e80ac/flexmark-util-dependency-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-html/0.64.8/1ed09f6b6a57be2797aee9c9dfcbeab06afa120b/flexmark-util-html-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-options/0.64.8/4b17bc1639c2a874d93a5bb89f78bf0765e3e4c7/flexmark-util-options-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-sequence/0.64.8/985913246df64fe7e768eb0664b45dedea7536cf/flexmark-util-sequence-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-collection/0.64.8/40e82ad00bb159ee878557fa8312ed7d95f4b297/flexmark-util-collection-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-data/0.64.8/a3f92abd0acbb4d1f12dfd3d6128f73d245d6ba9/flexmark-util-data-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-misc/0.64.8/6d0b133faee38c41368ee3c67f0df4498ffe3c25/flexmark-util-misc-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-visitor/0.64.8/a8178ba6dfd7a958353a60b3a51fe7edb1578b49/flexmark-util-visitor-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.26.2/795eca30f20fdc110d1a02a1f0e7ad207e17e7c1/javaparser-core-3.26.2.jar" />
+        </processorPath>
+        <module name="class-track.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="micronaut.processing.annotations" value="com.arquitecture.*" />
+        <option name="micronaut.processing.group" value="com.arquitecture" />
+        <option name="micronaut.processing.incremental" value="true" />
+        <option name="micronaut.processing.module" value="class-track" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.data/micronaut-data-processor/4.9.3/b68aad592d741d5ae21a9fd5810b4e47506543ce/micronaut-data-processor-4.9.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.openapi/micronaut-openapi/6.12.3/3d2219399ee9d8e92ed4286fabb8960bd4c97358/micronaut-openapi-6.12.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.serde/micronaut-serde-processor/2.11.0/80b47e60ad518244c9ad39186ab2823c8b63c3da/micronaut-serde-processor-2.11.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.data/micronaut-data-model/4.9.3/85d282d1a9590a3ac6c9ea62af46251b48980d61/micronaut-data-model-4.9.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.openapi/micronaut-openapi-annotations/6.12.3/42df144acff5f1ec6f37ea2bb4cea3da569b48fe/micronaut-openapi-annotations-6.12.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.openapi/micronaut-openapi-common/6.12.3/7e1dd3db7844253ec5e19995495f943e3ac70322/micronaut-openapi-common-6.12.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.serde/micronaut-serde-api/2.11.0/da7f0a4239bfd2155f5f9ed11f1d3e97e05821e9/micronaut-serde-api-2.11.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-graal/4.6.5/a3bbcc29195f8a63276bfb8854c86076e0502105/micronaut-graal-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-inject-java/4.6.5/37288b68bd57a16f6d9817553ad7c6f68a42f3e/micronaut-inject-java-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.17.2/78d2c73dbec62044d7cf3b544b2e0d24a1a093b0/jackson-dataformat-yaml-2.17.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.17.2/267b85e9ba2892a37be6d80aa9ca1438a0d8c210/jackson-datatype-jsr310-2.17.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.17.2/e6deb029e5901e027c129341fac39e515066b68c/jackson-databind-2.17.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger.core.v3/swagger-models/2.2.23/8b9126ed22aa76b0992daf0b58a1350c66a2cca7/swagger-models-2.2.23.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.17.2/147b7b9412ffff24339f8aba080b292448e08698/jackson-annotations-2.17.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.17.2/969a35cb35c86512acbadcdbbbfb044c877db814/jackson-core-2.17.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core-processor/4.6.5/10319d9a5b06331dc2af2b3a21e1d875bc675c9c/micronaut-core-processor-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-json-core/4.6.5/b9aff81003b47b48932aa362ba32ca52f0596b6a/micronaut-json-core-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http/4.6.5/9c69a211a1413d3073dadad3476b5b773fdf6ea4/micronaut-http-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-context-propagation/4.6.5/1d628d361fd87de210630b53cc4a2300f5633ff9/micronaut-context-propagation-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-context/4.6.5/e6335a4caf52c543ffa22075201c1fb4e9fd87fa/micronaut-context-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-aop/4.6.5/264e758a5bc57b3658ac86cea9973541c80ce076/micronaut-aop-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-inject/4.6.5/277d95820fd01ec31761bbfc2a9c6234af762199/micronaut-inject-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakarta.annotation-api-2.1.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-symbol-solver-core/3.26.2/e276bf1d8913af174529dbd35ff82bb05e396601/javaparser-symbol-solver-core-3.26.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core-reactive/4.6.5/f5fdf9ad1a402f37aa0fbcfbe67682cfc0eb28e3/micronaut-core-reactive-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.6.9/2f0a64e3ea9793922afdf7ea0e7250401930de94/reactor-core-3.6.9.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.4/3864a1320d97d7b045f729a326e1e077661f31b7/reactive-streams-1.0.4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.2/3af797a25458550a16bf89acc8e4ab2b7f2bfce0/snakeyaml-2.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core/4.6.5/681a5ad6fe1f76c3b1f8f59387c9a2b95eea9920/micronaut-core-4.6.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/3.1.0/66901fa1c373c6aff65c13791cc11da72060a8d6/jakarta.persistence-api-3.1.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-html2md-converter/0.64.8/a4b9dc984710931e98fdf62479784f789c0f5e6d/flexmark-html2md-converter-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.chhorz/javadoc-parser/0.3.1/29bf2a6bafb5413027527403009b74315690d3bf/javadoc-parser-0.3.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.18.1/cb7cd991d47b44101cbe4655dec611cdc01f8a02/jsoup-1.18.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger.core.v3/swagger-annotations/2.2.23/2e639326775eb3b2895eb220ce0534c9ecea3f8a/swagger-annotations-2.2.23.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.7/e86dda4696d3c185fcc95d8d311904e7ce38a53f/asm-commons-9.7.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.7/e446a17b175bfb733b87c5c2560ccb4e57d69f1a/asm-tree-9.7.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.7/73d7b3086e14beb604ced229c302feff6449723/asm-9.7.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.1/4c28afe1991a941d7702fe1362c365f0a8641d1e/jakarta.inject-api-2.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-emoji/0.64.8/eefbf6a1fb644fa14c3fb74017cf9c97a4879a7c/flexmark-ext-emoji-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-jira-converter/0.64.8/6a1997f1b8c2ef8426c0330d9be41f3f32edb82c/flexmark-jira-converter-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-strikethrough/0.64.8/1851e124c6d85c5c7f3fdbbe066d30a76ad6be44/flexmark-ext-gfm-strikethrough-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-tables/0.64.8/18e37d2e67a346c7c2694dd91944eefd5028608/flexmark-ext-tables-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-wikilink/0.64.8/f443092e4eda97537c449f0ad6c74022f8d5746a/flexmark-ext-wikilink-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-ins/0.64.8/7d095adeebf934f6424d9444af2ec0b2553fecfd/flexmark-ext-ins-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-superscript/0.64.8/e5d22f3ec35ac64504cbc238b0f5c63349815a7f/flexmark-ext-superscript-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util/0.64.8/e7aad89229a58c9ac56e09c04a8f9b012d137bff/flexmark-util-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark/0.64.8/e82621ebed3a6cfa31c52900aaf9a9b6dd3c859d/flexmark-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-format/0.64.8/12bb34f8d1d3d3678b540cb75726414eb910e327/flexmark-util-format-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-ast/0.64.8/9904d6c8e7c9e2ec63b77e9313e518918758dd84/flexmark-util-ast-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-builder/0.64.8/79f4593ce00d99b786425cabb12cc13bf785374b/flexmark-util-builder-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-dependency/0.64.8/392bc415728aee6fdb9aded0004b0bf6c15e80ac/flexmark-util-dependency-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-html/0.64.8/1ed09f6b6a57be2797aee9c9dfcbeab06afa120b/flexmark-util-html-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-options/0.64.8/4b17bc1639c2a874d93a5bb89f78bf0765e3e4c7/flexmark-util-options-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-sequence/0.64.8/985913246df64fe7e768eb0664b45dedea7536cf/flexmark-util-sequence-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-collection/0.64.8/40e82ad00bb159ee878557fa8312ed7d95f4b297/flexmark-util-collection-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-data/0.64.8/a3f92abd0acbb4d1f12dfd3d6128f73d245d6ba9/flexmark-util-data-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-misc/0.64.8/6d0b133faee38c41368ee3c67f0df4498ffe3c25/flexmark-util-misc-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-visitor/0.64.8/a8178ba6dfd7a958353a60b3a51fe7edb1578b49/flexmark-util-visitor-0.64.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.26.2/795eca30f20fdc110d1a02a1f0e7ad207e17e7c1/javaparser-core-3.26.2.jar" />
+        </processorPath>
+        <module name="class-track.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>
