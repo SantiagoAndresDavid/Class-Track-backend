@@ -32,8 +32,8 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("org.postgresql:postgresql")
     testImplementation("net.minidev:json-smart:2.5.1")
+    implementation("org.springframework.security:spring-security-core:5.8.0")
 }
-
 
 application {
     mainClass = "com.arquitecture.Application"

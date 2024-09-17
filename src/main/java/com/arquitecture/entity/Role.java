@@ -1,11 +1,10 @@
 package com.arquitecture.entity;
 
-import io.micronaut.data.annotation.AutoPopulated;
-import io.micronaut.data.annotation.GeneratedValue;
-import io.micronaut.data.annotation.Id;
-import io.micronaut.data.annotation.MappedEntity;
+import io.micronaut.data.annotation.*;
 import io.micronaut.serde.annotation.Serdeable;
 import lombok.Data;
+
+import java.util.List;
 
 @Serdeable
 @Data
@@ -14,6 +13,5 @@ public class Role {
     @Id
     @GeneratedValue
     private Long id;
-
     private String name;
 }
