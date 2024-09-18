@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Class-Path: resources/ classes/ libs/micronaut-data-jdbc-4.9.3.jar libs/
+ micronaut-serde-jackson-2.11.0.jar libs/micronaut-jdbc-hikari-5.8.2.jar
+  libs/micronaut-data-runtime-4.9.3.jar libs/micronaut-data-tx-jdbc-4.9.
+ 3.jar libs/micronaut-data-connection-jdbc-4.9.3.jar libs/micronaut-jdbc
+ -5.8.2.jar libs/micronaut-serde-support-2.11.0.jar libs/micronaut-serde
+ -api-2.11.0.jar libs/micronaut-data-model-4.9.3.jar libs/micronaut-data
+ -tx-4.9.3.jar libs/micronaut-data-connection-4.9.3.jar libs/micronaut-h
+ ttp-client-4.6.5.jar libs/spring-security-core-5.8.0.jar libs/micronaut
+ -websocket-4.6.5.jar libs/micronaut-http-client-core-4.6.5.jar libs/mic
+ ronaut-jackson-core-4.6.5.jar libs/micronaut-json-core-4.6.5.jar libs/m
+ icronaut-http-server-netty-4.6.5.jar libs/micronaut-http-netty-4.6.5.ja
+ r libs/micronaut-http-server-4.6.5.jar libs/micronaut-router-4.6.5.jar 
+ libs/micronaut-http-4.6.5.jar libs/micronaut-discovery-core-4.6.5.jar l
+ ibs/micronaut-context-propagation-4.6.5.jar libs/micronaut-context-4.6.
+ 5.jar libs/micronaut-aop-4.6.5.jar libs/micronaut-buffer-netty-4.6.5.ja
+ r libs/micronaut-inject-4.6.5.jar libs/logback-classic-1.5.7.jar libs/p
+ ostgresql-42.7.4.jar libs/spring-security-crypto-5.8.0.jar libs/spring-
+ context-6.1.11.jar libs/spring-aop-6.1.11.jar libs/spring-beans-6.1.11.
+ jar libs/spring-expression-6.1.11.jar libs/spring-core-6.1.11.jar libs/
+ jackson-annotations-2.17.2.jar libs/jackson-core-2.17.2.jar libs/jakart
+ a.annotation-api-2.1.1.jar libs/netty-handler-proxy-4.1.113.Final.jar l
+ ibs/netty-codec-http2-4.1.113.Final.jar libs/netty-codec-http-4.1.113.F
+ inal.jar libs/netty-codec-socks-4.1.113.Final.jar libs/netty-handler-4.
+ 1.113.Final.jar libs/netty-codec-4.1.113.Final.jar libs/netty-transport
+ -native-unix-common-4.1.113.Final.jar libs/netty-transport-4.1.113.Fina
+ l.jar libs/netty-buffer-4.1.113.Final.jar libs/netty-resolver-4.1.113.F
+ inal.jar libs/netty-common-4.1.113.Final.jar libs/reactor-core-3.6.9.ja
+ r libs/micronaut-core-reactive-4.6.5.jar libs/reactive-streams-1.0.4.ja
+ r libs/micronaut-core-4.6.5.jar libs/jakarta.persistence-api-3.1.0.jar 
+ libs/jakarta.transaction-api-2.0.1.jar libs/logback-core-1.5.7.jar libs
+ /HikariCP-5.1.0.jar libs/slf4j-api-2.0.16.jar libs/micrometer-observati
+ on-1.13.3.jar libs/jakarta.inject-api-2.0.1.jar libs/micrometer-commons
+ -1.13.3.jar libs/spring-jcl-6.1.11.jar libs/checker-qual-3.42.0.jar
+Main-Class: com.arquitecture.Application
+

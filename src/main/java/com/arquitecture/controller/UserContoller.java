@@ -26,11 +26,9 @@ public class UserContoller {
         return HttpResponse.ok(userServices.getUserById(email));
     }
 
-   @Get(uri = "/Sign-in")
+   @Get(uri = "/sign-in")
    @Produces("application/json")
     public MutableHttpResponse<Boolean> singIn(String email,String password){
         return HttpResponse.ok(userServices.singIn(email,password));
    }
-
-
 }

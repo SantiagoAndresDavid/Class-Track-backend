@@ -1,22 +1,24 @@
-version: '3.8'
-
 services:
   app:
-    build: .
+    build:
+      context: .
+      dockerfile: build/docker/main/Dockerfile
+      network: host
+    image: class-track:latest
     ports:
       - "8080:8080"
     depends_on:
-      - db
+      - postgresql
     environment:
-      - DB_HOST=db
+      - DB_HOST=postgresql
       - DB_PORT=5432
-      - DB_NAME=arquitecture
-      - DB_USER=arquitecture_user
-      - DB_PASSWORD=arquitecture_password
+      - DB_NAME=postgres
+      - DB_USER=pwd
+      - DB_PASSWORD=pwd
     networks:
       - app-network
 
-  db:
+  postgresql:
     image: postgres:13
     environment:
       POSTGRES_DB: postgres
@@ -34,3 +36,4 @@ volumes:
 
 networks:
   app-network:
+    driver: bridge
