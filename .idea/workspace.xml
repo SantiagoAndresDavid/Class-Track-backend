@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b48e582a-4c13-46c4-a0df-576874d992c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/swagger/micronaut-guides-1.0.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/META-INF/swagger/micronaut-guides-1.0.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$UserContoller$Definition$Exec.class.uniqueId7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$UserContoller$Definition.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$UserServices$Definition.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserContoller.class.uniqueId4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserServices.class.uniqueId3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.controller.$UserContoller$Definition.uniqueId6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.service.$UserServices$Definition.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/micronaut-guides-1.0.yml.uniqueId5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/UserContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/UserContoller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/UserServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +51,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -101,7 +85,7 @@
     &quot;Gradle.Class-Track-backend [:Application.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Class-Track-backend [dependencies].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Class-Track-backend.executor&quot;: &quot;Run&quot;,
-    &quot;Micronaut.Application (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Micronaut.Application (1).executor&quot;: &quot;Run&quot;,
     &quot;Micronaut.Application.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -246,6 +230,8 @@
       <workItem from="1726595248465" duration="617000" />
       <workItem from="1726596050655" duration="6292000" />
       <workItem from="1726603707111" duration="3729000" />
+      <workItem from="1726613767820" duration="683000" />
+      <workItem from="1726625434176" duration="490000" />
     </task>
     <servers />
   </component>
