@@ -8,7 +8,7 @@ import io.micronaut.http.annotation.*;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.inject.Inject;
 
-@Controller("/Users")
+@Controller("/users")
 @Tag(name = "Users")
 public class UserContoller {
     @Inject
