@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b48e582a-4c13-46c4-a0df-576874d992c7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/UserContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/UserContoller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/RoleServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/RoleServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/UserServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +89,7 @@
     "Gradle.Class-Track-backend [:Application.main()].executor": "Run",
     "Gradle.Class-Track-backend [dependencies].executor": "Run",
     "Gradle.Class-Track-backend.executor": "Run",
-    "Micronaut.Application (1).executor": "Run",
+    "Micronaut.Application (1).executor": "Debug",
     "Micronaut.Application.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -278,5 +281,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/arquitecture/service/UserServices.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/arquitecture/controller/UserContoller.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -8,6 +8,7 @@ import jakarta.inject.Singleton;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
@@ -23,7 +24,10 @@ public class UserServices {
     public String saveUser(User user) {
         try {
             //verify if all roles exist
-            roleServices.doAllRolesExist(user.getRoles());
+
+            if (!roleServices.doAllRolesExist(user.getRoles())) {
+                throw new Exception("Roles do not exist");
+            }
             // Encrypt the user's password
             User userEncrypt = encryptPassword(user);
             // Save the user with roles

@@ -3,60 +3,6 @@ info:
   title: micronaut-guides
   version: "1.0"
 paths:
-  /Users/Sign-in:
-    get:
-      tags:
-      - Users
-      operationId: singIn
-      parameters:
-      - name: password
-        in: query
-        required: true
-        schema:
-          type: string
-      responses:
-        "200":
-          description: singIn 200 response
-          content:
-            application/json:
-              schema:
-                type: boolean
-  /Users/save:
-    post:
-      tags:
-      - Users
-      operationId: saveUser
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: "#/components/schemas/User"
-        required: true
-      responses:
-        "200":
-          description: saveUser 200 response
-          content:
-            application/json:
-              schema:
-                type: string
-  /Users/{email}:
-    get:
-      tags:
-      - Users
-      operationId: getUserByEmail
-      parameters:
-      - name: email
-        in: path
-        required: true
-        schema:
-          type: string
-      responses:
-        "200":
-          description: getUserByEmail 200 response
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/User"
   /healthCheck/get:
     get:
       tags:
@@ -103,6 +49,65 @@ paths:
             application/json:
               schema:
                 type: string
+  /users/save:
+    post:
+      tags:
+      - Users
+      operationId: saveUser
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/User"
+        required: true
+      responses:
+        "200":
+          description: saveUser 200 response
+          content:
+            application/json:
+              schema:
+                type: string
+  /users/sign-in:
+    get:
+      tags:
+      - Users
+      operationId: singIn
+      parameters:
+      - name: email
+        in: query
+        required: true
+        schema:
+          type: string
+      - name: password
+        in: query
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: singIn 200 response
+          content:
+            application/json:
+              schema:
+                type: boolean
+  /users/{email}:
+    get:
+      tags:
+      - Users
+      operationId: getUserByEmail
+      parameters:
+      - name: email
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: getUserByEmail 200 response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
 components:
   schemas:
     Role:

@@ -21,11 +21,17 @@ public class RoleServices{
         }
     }
 
-    public void doAllRolesExist(List<Role> roles) {
-        for (Role role : roles) {
-            if (!roleRepository.existsById(role.getId())) {
-                return;
+    public boolean doAllRolesExist(List<Role> roles) {
+        try {
+            for (Role role : roles) {
+                if (!roleRepository.existsById(role.getId())) {
+                    throw new Exception("Role with ID " + role.getId() + " does not exist");
+                }
             }
+            return true;
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+            return false;
         }
     }
 }
