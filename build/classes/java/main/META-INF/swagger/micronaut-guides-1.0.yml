@@ -110,6 +110,14 @@ paths:
                 $ref: "#/components/schemas/User"
 components:
   schemas:
+    Class:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
     Role:
       type: object
       properties:
@@ -134,3 +142,7 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/Role"
+        classes:
+          type: array
+          items:
+            $ref: "#/components/schemas/Class"
