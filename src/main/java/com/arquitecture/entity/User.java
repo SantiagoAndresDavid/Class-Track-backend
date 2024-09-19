@@ -24,7 +24,7 @@ public class User {
     //https://stackoverflow.com/questions/76532241/micronaut-jdbc-many-to-many-relationship
     @Relation(value = Relation.Kind.MANY_TO_MANY, cascade = Relation.Cascade.ALL)
     private List<Role> roles;
-    @JoinTable(name = "Schedule")
+    @JoinTable(name = "schedule")
     @Relation(value = Relation.Kind.MANY_TO_MANY, cascade = Relation.Cascade.ALL)
     private List<Class> classes;
 }

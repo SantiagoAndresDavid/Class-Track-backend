@@ -136,6 +136,20 @@ components:
           format: int64
         name:
           type: string
+        notifications:
+          type: array
+          items:
+            $ref: "#/components/schemas/Notification"
+        stadistic:
+          $ref: "#/components/schemas/stadistic"
+    Notification:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
     Role:
       type: object
       properties:
@@ -164,3 +178,11 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/Class"
+    stadistic:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
