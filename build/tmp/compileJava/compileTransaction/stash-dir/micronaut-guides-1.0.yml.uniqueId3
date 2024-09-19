@@ -140,6 +140,8 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/Notification"
+        stadistic:
+          $ref: "#/components/schemas/Statistic"
     Notification:
       type: object
       properties:
@@ -149,6 +151,14 @@ components:
         name:
           type: string
     Role:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+    Statistic:
       type: object
       properties:
         id:

@@ -1,18 +1,19 @@
 package com.arquitecture.service;
 
-import com.arquitecture.data.ClassRepository;
-import com.arquitecture.entity.Class;
+
+import com.arquitecture.data.GradeRepository;
+import com.arquitecture.entity.Grade;
 import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
 
 @Singleton
-public class ClassService {
+public class GradeService {
     @Inject
-    ClassRepository classRepository;
+    GradeRepository gradeRepository;
 
-    public String saveClass(Class item) {
+    public String saveClass(Grade grade) {
         try {
-            classRepository.save(item);
+            gradeRepository.save(grade);
             return "Class saved";
         } catch (Exception e) {
             return "Error saving class: " + e.getMessage();

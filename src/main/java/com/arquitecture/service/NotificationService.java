@@ -11,7 +11,7 @@ public class NotificationService {
     NotificationRepository notificationRepository;
 
 
-    public String saveNotification(Notification notification) {
+    public String createNotification(Notification notification) {
         try {
             notificationRepository.save(notification);
             return "Notification saved";

@@ -1,8 +1,8 @@
 package com.arquitecture.controller;
 
 import com.arquitecture.entity.Class;
-import com.arquitecture.entity.User;
-import com.arquitecture.service.ClassService;
+import com.arquitecture.entity.Notification;
+import com.arquitecture.service.NotificationService;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.MediaType;
 import io.micronaut.http.MutableHttpResponse;
@@ -13,20 +13,21 @@ import io.micronaut.http.annotation.Produces;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.inject.Inject;
 
-@Controller("/class")
-@Tag(name = "class")
-public class ClassController {
+@Controller("/Notification")
+@Tag(name = "Notification")
+public class NotificationController {
     @Inject
-    ClassService classService;
+    NotificationService notificationService;
 
-    @Post("/save")
+    @Post("/create")
     @Produces(MediaType.APPLICATION_JSON)
-    public MutableHttpResponse<String> saveClass(@Body Class classItem) {
-        String response = classService.saveClass(classItem);
-        if(response.equals("User saved with roles")){
+    public MutableHttpResponse<String> createNotification(@Body Notification notification) {
+        String response = notificationService.createNotification(notification);
+        if(response.equals("Notification created")){
             return HttpResponse.created(response);
         }else {
             return HttpResponse.badRequest(response);
         }
     }
+
 }

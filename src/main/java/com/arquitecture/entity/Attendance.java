@@ -23,5 +23,5 @@ public class Attendance {
     @Relation(value = Relation.Kind.ONE_TO_MANY, cascade = Relation.Cascade.ALL)
     private List<User> users;
     @Relation(value = Relation.Kind.ONE_TO_ONE, cascade = Relation.Cascade.ALL)
-    private Class aClass;
+    private Grade grade;
 }

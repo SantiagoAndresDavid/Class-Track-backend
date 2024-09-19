@@ -1,4 +1,4 @@
-package com.arquitecture.controller;
+package com.arquitecture.controller.user;
 
 import com.arquitecture.entity.User;
 import com.arquitecture.service.UserServices;

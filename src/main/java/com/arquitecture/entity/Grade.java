@@ -12,7 +12,7 @@ import java.util.List;
 @Serdeable
 @Data
 @MappedEntity
-public class Class {
+public class Grade {
     @Id
     @GeneratedValue
     private Long id;
