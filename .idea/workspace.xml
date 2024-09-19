@@ -16,15 +16,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$UserContoller$Definition$Exec.class.uniqueId7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$UserContoller$Definition.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$UserServices$Definition.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserContoller.class.uniqueId4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserServices.class.uniqueId3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.controller.$UserContoller$Definition.uniqueId6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.service.$UserServices$Definition.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/micronaut-guides-1.0.yml.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/swagger/micronaut-guides-1.0.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/META-INF/swagger/micronaut-guides-1.0.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/ClassRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/ClassRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

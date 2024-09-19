@@ -3,6 +3,24 @@ info:
   title: micronaut-guides
   version: "1.0"
 paths:
+  /class/save:
+    post:
+      tags:
+      - class
+      operationId: saveClass
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Class"
+        required: true
+      responses:
+        "200":
+          description: saveClass 200 response
+          content:
+            application/json:
+              schema:
+                type: string
   /healthCheck/get:
     get:
       tags:
