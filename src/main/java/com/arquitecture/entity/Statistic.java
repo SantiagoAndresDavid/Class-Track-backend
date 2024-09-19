@@ -9,7 +9,7 @@ import lombok.Data;
 @Serdeable
 @Data
 @MappedEntity
-public class stadistic {
+public class Statistic {
     @Id
     @GeneratedValue
     private Long id;
