@@ -12,51 +12,31 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.arquitecture.entity.$com.arquitecture.entity.stadistic$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.arquitecture.entity.$Class$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.arquitecture.controller.$ClassController$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.arquitecture.controller.$UserContoller$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.arquitecture.data.$ClassRepository$Intercepted$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.arquitecture.service.$ClassService$Definition" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/swagger/micronaut-guides-1.0.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/META-INF/swagger/micronaut-guides-1.0.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$Attendance$Introspection.class.uniqueId23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$Class$Introspection.class.uniqueId29" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$ClassController$Definition$Exec.class.uniqueId28" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$ClassController$Definition.class.uniqueId31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$ClassRepository$Intercepted$Definition$Exec.class.uniqueId6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$ClassRepository$Intercepted$Definition.class.uniqueId16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$ClassService$Definition.class.uniqueId20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$User$Introspection.class.uniqueId24" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$UserContoller$Definition$Exec.class.uniqueId27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$UserContoller$Definition.class.uniqueId12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$UserRepository$Intercepted$Definition$Exec.class.uniqueId15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$UserRepository$Intercepted$Definition.class.uniqueId14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$UserServices$Definition.class.uniqueId10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Attendance.class.uniqueId11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Class.class.uniqueId4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ClassController.class.uniqueId32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ClassRepository$Intercepted.class.uniqueId33" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ClassRepository.class.uniqueId19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ClassService.class.uniqueId3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/User.class.uniqueId25" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserContoller.class.uniqueId17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserRepository$Intercepted.class.uniqueId30" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserRepository.class.uniqueId5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserServices.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.controller.$ClassController$Definition.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.controller.$UserContoller$Definition.uniqueId9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.data.$ClassRepository$Intercepted$Definition.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.data.$UserRepository$Intercepted$Definition.uniqueId18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.entity.$Attendance$Introspection.uniqueId21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.entity.$Class$Introspection.uniqueId13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.entity.$User$Introspection.uniqueId26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.service.$ClassService$Definition.uniqueId7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.service.$UserServices$Definition.uniqueId22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/micronaut-guides-1.0.yml.uniqueId8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$NotificationService$Definition.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/NotificationService.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/com.arquitecture.service.$NotificationService$Definition.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/micronaut-guides-1.0.yml.uniqueId3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/ClassController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/ClassController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/UserContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/user/UserContoller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/ClassRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/GradeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Attendance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Attendance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Class.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/ClassService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/GradeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/Notification/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/Role/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/user/UserContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/user/UserContoller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +79,7 @@
         <option value="Dockerfile" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -136,7 +117,7 @@
     &quot;Gradle.Class-Track-backend [:Application.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Class-Track-backend [dependencies].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Class-Track-backend.executor&quot;: &quot;Run&quot;,
-    &quot;Micronaut.Application (1).executor&quot;: &quot;Run&quot;,
+    &quot;Micronaut.Application (1).executor&quot;: &quot;Debug&quot;,
     &quot;Micronaut.Application.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -316,7 +297,9 @@
       <workItem from="1726782378915" duration="194000" />
       <workItem from="1726782591872" duration="251000" />
       <workItem from="1726782859164" duration="765000" />
-      <workItem from="1726783635623" duration="866000" />
+      <workItem from="1726783635623" duration="1179000" />
+      <workItem from="1726785300730" duration="3526000" />
+      <workItem from="1726790089960" duration="1141000" />
     </task>
     <servers />
   </component>
@@ -345,7 +328,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/arquitecture/controller/user/UserContoller.java</url>
           <line>21</line>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

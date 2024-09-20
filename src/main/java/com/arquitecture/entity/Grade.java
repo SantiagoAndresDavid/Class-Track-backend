@@ -20,5 +20,5 @@ public class Grade {
     @Relation(value = Relation.Kind.ONE_TO_MANY, cascade = Relation.Cascade.ALL)
     private List<Notification> notifications;
     @Relation(value = Relation.Kind.ONE_TO_ONE, cascade = Relation.Cascade.ALL)
-    private Statistic stadistic;
+    private Statistic statistic;
 }

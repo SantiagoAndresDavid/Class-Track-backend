@@ -2,6 +2,7 @@ package com.arquitecture.entity;
 
 import io.micronaut.data.annotation.*;
 import io.micronaut.serde.annotation.Serdeable;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.List;
 @Serdeable
 @Data
 @MappedEntity
+@AllArgsConstructor
 public class Role {
     @Id
     @GeneratedValue

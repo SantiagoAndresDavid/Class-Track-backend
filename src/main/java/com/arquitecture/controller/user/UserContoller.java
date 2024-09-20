@@ -17,8 +17,9 @@ public class UserContoller {
 
     @Post(uri = "/save")
     @Produces(MediaType.APPLICATION_JSON)
-    public MutableHttpResponse<String> saveUser(@Body User user) {
-        String response = userServices.saveUser(user);
+    public MutableHttpResponse<String> saveUser(@Body UserSaveRequest user) {
+        User user1 =user.toUser();
+        String response = userServices.saveUser(user1);
         if(response.equals("User saved with roles")){
             return HttpResponse.created(response);
         }else {
