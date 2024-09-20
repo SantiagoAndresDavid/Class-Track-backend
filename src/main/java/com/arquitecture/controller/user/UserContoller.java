@@ -1,5 +1,6 @@
 package com.arquitecture.controller.user;
 
+import com.arquitecture.entity.Grade;
 import com.arquitecture.entity.User;
 import com.arquitecture.service.UserServices;
 import io.micronaut.http.HttpResponse;
@@ -8,6 +9,9 @@ import io.micronaut.http.MutableHttpResponse;
 import io.micronaut.http.annotation.*;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.inject.Inject;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Controller("/users")
 @Tag(name = "Users")
@@ -29,7 +33,8 @@ public class UserContoller {
     @Get(uri = "/{email}")
     @Produces(MediaType.APPLICATION_JSON)
     public MutableHttpResponse<User> getUserByEmail(@PathVariable String email) {
-        return HttpResponse.ok(userServices.getUserById(email));
+        User user = userServices.getUserByEmail(email);
+        return HttpResponse.ok(user);
     }
 
    @Get(uri = "/sign-in")
@@ -37,4 +42,25 @@ public class UserContoller {
     public MutableHttpResponse<Boolean> singIn(String email,String password){
         return HttpResponse.ok(userServices.singIn(email,password));
    }
+
+    @Put(uri = "/add-grade")
+    @Produces(MediaType.APPLICATION_JSON)
+    public MutableHttpResponse<String> updateUser(@Body AddGradeToUserRequest addGradeToUserRequest) {
+        List<Grade> grades = addGradeToUserRequest.grades().stream()
+                .map(GradeId::toGrade)
+                .collect(Collectors.toList());
+        String response = userServices.addGradeToUser(addGradeToUserRequest.id(), grades);
+        if (response.equals("Class added to user")) {
+            return HttpResponse.created(response);
+        } else {
+            return HttpResponse.badRequest(response);
+        }
+    }
+
+    @Get(uri = "/get-all")
+    @Produces(MediaType.APPLICATION_JSON)
+    public MutableHttpResponse<List<User>> singIn(){
+        return HttpResponse.ok(userServices.getAllUsers());
+    }
+
 }

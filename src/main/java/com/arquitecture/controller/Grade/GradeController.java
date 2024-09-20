@@ -21,8 +21,8 @@ public class GradeController {
 
     @Post("/save")
     @Produces(MediaType.APPLICATION_JSON)
-    public MutableHttpResponse<String> saveClass(@Body Grade grade) {
-        String response = classService.saveClass(grade);
+    public MutableHttpResponse<String> saveClass(@Body GradeSaveRequest gradeSaveRequest) {
+        String response = classService.saveClass(gradeSaveRequest.toGrade());
         if(response.equals("User saved with roles")){
             return HttpResponse.created(response);
         }else {

@@ -14,7 +14,7 @@ public class NotificationService {
     public String createNotification(Notification notification) {
         try {
             notificationRepository.save(notification);
-            return "Notification saved";
+            return "Notification created";
         } catch (Exception e) {
             return "Error saving notification: " + e.getMessage();
         }

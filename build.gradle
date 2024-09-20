@@ -23,16 +23,18 @@ dependencies {
     annotationProcessor("io.micronaut:micronaut-http-validation")
     annotationProcessor("io.micronaut.openapi:micronaut-openapi")
     annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
+    annotationProcessor ('org.mapstruct:mapstruct-processor:1.5.3.Final')
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut.data:micronaut-data-jdbc")
     implementation("io.micronaut.serde:micronaut-serde-jackson")
     implementation("io.micronaut.sql:micronaut-jdbc-hikari")
+    implementation ('org.mapstruct:mapstruct:1.5.3.Final')
     compileOnly("io.micronaut.openapi:micronaut-openapi-annotations")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("org.postgresql:postgresql")
     testImplementation("net.minidev:json-smart:2.5.1")
-    implementation("org.springframework.security:spring-security-core:5.8.0")
+    implementation('org.springframework.security:spring-security-core:6.3.0')
 }
 
 application {

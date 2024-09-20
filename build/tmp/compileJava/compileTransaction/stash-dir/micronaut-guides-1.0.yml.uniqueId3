@@ -12,11 +12,32 @@ paths:
         content:
           application/json:
             schema:
-              $ref: "#/components/schemas/Notification"
+              $ref: "#/components/schemas/NotificationSaveRequest"
         required: true
       responses:
         "200":
           description: createNotification 200 response
+          content:
+            application/json:
+              schema:
+                type: string
+  /attendance/save:
+    post:
+      tags:
+      - Attendance
+      operationId: saveAttendance
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                attendanceSaveRequest:
+                  $ref: "#/components/schemas/AttendanceSaveRequest"
+        required: true
+      responses:
+        "200":
+          description: saveAttendance 200 response
           content:
             application/json:
               schema:
@@ -30,7 +51,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: "#/components/schemas/Grade"
+              $ref: "#/components/schemas/GradeSaveRequest"
         required: true
       responses:
         "200":
@@ -53,6 +74,18 @@ paths:
                 type: object
                 additionalProperties:
                   type: string
+  /roles/get-by-id:
+    get:
+      tags:
+      - roles
+      operationId: getRole
+      responses:
+        "200":
+          description: getRole 200 response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Role"
   /roles/getAll:
     get:
       tags:
@@ -85,6 +118,38 @@ paths:
             application/json:
               schema:
                 type: string
+  /users/add-grade:
+    put:
+      tags:
+      - Users
+      operationId: updateUser
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AddGradeToUserRequest"
+        required: true
+      responses:
+        "200":
+          description: updateUser 200 response
+          content:
+            application/json:
+              schema:
+                type: string
+  /users/get-all:
+    get:
+      tags:
+      - Users
+      operationId: singIn
+      responses:
+        "200":
+          description: singIn 200 response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/User"
   /users/save:
     post:
       tags:
@@ -107,7 +172,7 @@ paths:
     get:
       tags:
       - Users
-      operationId: singIn
+      operationId: singIn_1
       parameters:
       - name: email
         in: query
@@ -121,7 +186,7 @@ paths:
           type: string
       responses:
         "200":
-          description: singIn 200 response
+          description: singIn_1 200 response
           content:
             application/json:
               schema:
@@ -146,7 +211,57 @@ paths:
                 $ref: "#/components/schemas/User"
 components:
   schemas:
+    AddGradeToUserRequest:
+      required:
+      - grades
+      - id
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        grades:
+          type: array
+          items:
+            $ref: "#/components/schemas/GradeId"
+    AttendanceGradeIdRequest:
+      required:
+      - id
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+    AttendanceSaveRequest:
+      required:
+      - attendanceDate
+      - gradeId
+      - users
+      type: object
+      properties:
+        users:
+          type: array
+          items:
+            $ref: "#/components/schemas/AttendanceUserIdRequest"
+        gradeId:
+          $ref: "#/components/schemas/AttendanceGradeIdRequest"
+        attendanceDate:
+          type: string
+          format: date
+    AttendanceUserIdRequest:
+      required:
+      - id
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
     Grade:
+      required:
+      - finalDate
+      - initialDate
+      - name
+      - statistic
       type: object
       properties:
         id:
@@ -154,18 +269,67 @@ components:
           format: int64
         name:
           type: string
+        initialDate:
+          type: string
+          format: date-time
+        finalDate:
+          type: string
+          format: date-time
         notifications:
           type: array
           items:
             $ref: "#/components/schemas/Notification"
         statistic:
           $ref: "#/components/schemas/Statistic"
-    Notification:
+    GradeId:
+      required:
+      - id
       type: object
       properties:
         id:
           type: integer
           format: int64
+    GradeSaveRequest:
+      required:
+      - finalDate
+      - initialDate
+      - name
+      - statisticGradeRequest
+      type: object
+      properties:
+        name:
+          type: string
+        initialDate:
+          type: string
+          format: date-time
+        finalDate:
+          type: string
+          format: date-time
+        statisticGradeRequest:
+          $ref: "#/components/schemas/GradeSaveRequest.StatisticGradeRequest"
+    GradeSaveRequest.StatisticGradeRequest:
+      required:
+      - id
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+    Notification:
+      required:
+      - name
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+    NotificationSaveRequest:
+      required:
+      - name
+      type: object
+      properties:
         name:
           type: string
     Role:
@@ -186,6 +350,8 @@ components:
         name:
           type: string
     Statistic:
+      required:
+      - id
       type: object
       properties:
         id:
@@ -214,7 +380,7 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/Role"
-        classes:
+        grades:
           type: array
           items:
             $ref: "#/components/schemas/Grade"
@@ -235,8 +401,8 @@ components:
         roles:
           type: array
           items:
-            $ref: "#/components/schemas/UserSaveRequest.RoleRequest"
-    UserSaveRequest.RoleRequest:
+            $ref: "#/components/schemas/UserSaveRequest.RoleUserRequest"
+    UserSaveRequest.RoleUserRequest:
       required:
       - id
       - name

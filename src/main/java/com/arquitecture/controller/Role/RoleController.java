@@ -19,6 +19,10 @@ public class RoleController {
     @Produces(MediaType.APPLICATION_JSON)
     public Iterable<Role> getAllRoles() {return roleServices.getAllRoles();}
 
+    @Get(uri="/get-by-id")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Role getRole() {return roleServices.getRoleById();}
+
     @Post(uri = "/save")
     @Produces(MediaType.APPLICATION_JSON)
     public MutableHttpResponse<String> saveRole(@Body RoleSaveRequest roleSaveRequest) {

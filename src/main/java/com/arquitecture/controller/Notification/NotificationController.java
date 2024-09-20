@@ -21,8 +21,8 @@ public class NotificationController {
 
     @Post("/create")
     @Produces(MediaType.APPLICATION_JSON)
-    public MutableHttpResponse<String> createNotification(@Body Notification notification) {
-        String response = notificationService.createNotification(notification);
+    public MutableHttpResponse<String> createNotification(@Body NotificationSaveRequest notificationSaveRequest) {
+        String response = notificationService.createNotification(notificationSaveRequest.toNotification());
         if(response.equals("Notification created")){
             return HttpResponse.created(response);
         }else {

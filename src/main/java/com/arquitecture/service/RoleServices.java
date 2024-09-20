@@ -34,4 +34,15 @@ public class RoleServices{
             return false;
         }
     }
+
+
+    public Role getRoleById() {
+        try {
+            long id = 1;
+            return roleRepository.findById(id).get();
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+            return null;
+        }
+    }
 }

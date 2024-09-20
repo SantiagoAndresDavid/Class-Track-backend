@@ -1,6 +1,7 @@
 package com.arquitecture.service;
 
 import com.arquitecture.data.UserRepository;
+import com.arquitecture.entity.Grade;
 import com.arquitecture.entity.User;
 import io.micronaut.core.annotation.NonNull;
 import jakarta.inject.Inject;
@@ -8,8 +9,8 @@ import jakarta.inject.Singleton;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
 
 
@@ -24,7 +25,6 @@ public class UserServices {
     public String saveUser(User user) {
         try {
             //verify if all roles exist
-
             if (!roleServices.doAllRolesExist(user.getRoles())) {
                 throw new Exception("Roles do not exist");
             }
@@ -40,9 +40,20 @@ public class UserServices {
 
     public @NonNull User getUserById(String email) {
         try {
-            User userResponse = userRepository.findByEmail(email);
+            User userResponse = userRepository.findByName(email);
             userResponse.setRoles(userRepository.findDistinctRolesById(userResponse.getId()));
                return userResponse;
+        } catch (Exception e) {
+            // Handle the exception or log it
+            return null;
+        }
+    }
+
+    public User getUserByEmail(String email) {
+        try {
+            String email2 = "string";
+            User user =  userRepository.findByName(email2);
+            return user;
         } catch (Exception e) {
             // Handle the exception or log it
             return null;
@@ -67,5 +78,23 @@ public class UserServices {
         String encodedPassword = passwordEncoder.encode(user.getPassword());
         user.setPassword(encodedPassword);
         return user;
+    }
+
+    public String addGradeToUser(Long id, List<Grade> grades) {
+        try {
+            return "Class added to user";
+        } catch (Exception e) {
+            return "Error adding class to user: " + e.getMessage();
+        }
+    }
+
+    public List<User> getAllUsers() {
+        List<User> users = userRepository.findAll();
+        for (User user : users) {
+            if (user.getRoles() == null) {
+                user.setRoles(new ArrayList<>());
+            }
+        }
+        return users;
     }
 }

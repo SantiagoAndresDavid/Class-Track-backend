@@ -1,10 +1,10 @@
 package com.arquitecture.entity;
 
+import io.micronaut.core.annotation.Nullable;
 import io.micronaut.data.annotation.GeneratedValue;
 import io.micronaut.data.annotation.Id;
 import io.micronaut.data.annotation.MappedEntity;
 import io.micronaut.data.annotation.Relation;
-import io.micronaut.data.annotation.sql.JoinColumn;
 import io.micronaut.data.annotation.sql.JoinTable;
 import io.micronaut.serde.annotation.Serdeable;
 import jakarta.inject.Named;
@@ -26,18 +26,24 @@ public class User {
     private String email;
     private String password;
     //https://stackoverflow.com/questions/76532241/micronaut-jdbc-many-to-many-relationship
+    @JoinTable(name = "user_role")
     @Relation(value = Relation.Kind.MANY_TO_MANY, cascade = Relation.Cascade.ALL)
     private List<Role> roles;
     @JoinTable(name = "schedule")
     @Relation(value = Relation.Kind.MANY_TO_MANY, cascade = Relation.Cascade.ALL)
-    private List<Grade> classes;
+    private List<Grade> grades;
 
-    @Named("UserConstructor")
-    @ConstructorProperties({"name", "email", "password", "roles", "classes"})
-    public User(String name, String email, String password, List<Role> roles) {
+
+    @ConstructorProperties({"name", "email", "password", "roles"})
+    public User(String name, String email, String password, @Nullable List<Role> roles) {
         this.name = name;
         this.email = email;
         this.password = password;
         this.roles = roles;
+
+    }
+    @ConstructorProperties({"id"})
+    public User(Long id) {
+        this.id = id;
     }
 }

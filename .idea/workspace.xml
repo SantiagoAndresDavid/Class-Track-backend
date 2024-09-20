@@ -5,14 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b48e582a-4c13-46c4-a0df-576874d992c7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/assistant.3nI5VQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d53e5ca1-4544-4383-af0d-6280b6886a63/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/class-track.main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.arquitecture.controller.user.$UserSaveRequest$RoleRequest$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/swagger/micronaut-guides-1.0.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/META-INF/swagger/micronaut-guides-1.0.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$RoleController$Definition$Exec.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/$RoleController$Definition.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/RoleController.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/RoleSaveRequest.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/micronaut-guides-1.0.yml.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/Grade/GradeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/Grade/GradeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/Notification/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/Notification/NotificationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/Role/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/Role/RoleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/user/UserContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/user/UserContoller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/user/UserSaveRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/controller/user/UserSaveRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/NotificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/data/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Attendance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Attendance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Statistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/Statistic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/RoleServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/RoleServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arquitecture/service/UserServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +93,8 @@
       <list>
         <option value="Dockerfile" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -153,11 +192,11 @@
       </method>
     </configuration>
     <configuration name="Application" type="MicronautRunConfigurationType" factoryName="Micronaut" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Application" />
-      <module name="demo.main" />
+      <option name="MAIN_CLASS_NAME" value="com.arquitecture.Application" />
+      <module name="class-track.main" />
       <option name="alternativeJrePath" />
       <option name="alternativeJrePathEnabled" value="false" />
-      <option name="mainClass" value="com.example.Application" />
+      <option name="mainClass" value="com.arquitecture.Application" />
       <option name="passParentEnvs" value="true" />
       <option name="programParameters" />
       <option name="vmParameters" />
@@ -276,7 +315,8 @@
       <workItem from="1726783635623" duration="1179000" />
       <workItem from="1726785300730" duration="3526000" />
       <workItem from="1726790089960" duration="2062000" />
-      <workItem from="1726831880537" duration="1403000" />
+      <workItem from="1726831880537" duration="28734000" />
+      <workItem from="1726861778970" duration="2940000" />
     </task>
     <servers />
   </component>
@@ -298,16 +338,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/arquitecture/controller/Notification/NotificationController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/arquitecture/service/UserServices.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="2" />
+          <line>43</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/arquitecture/controller/user/UserContoller.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="5" />
+          <line>36</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/class_track$Application__1_.ic" NAME="Application (1) Coverage Results" MODIFIED="1726862392701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
