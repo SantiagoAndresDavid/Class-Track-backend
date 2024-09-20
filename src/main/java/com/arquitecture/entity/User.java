@@ -8,6 +8,7 @@ import io.micronaut.data.annotation.sql.JoinColumn;
 import io.micronaut.data.annotation.sql.JoinTable;
 import io.micronaut.serde.annotation.Serdeable;
 import jakarta.inject.Named;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.beans.ConstructorProperties;
@@ -16,6 +17,7 @@ import java.util.List;
 @Serdeable
 @Data
 @MappedEntity
+@AllArgsConstructor
 public class User {
     @Id
     @GeneratedValue

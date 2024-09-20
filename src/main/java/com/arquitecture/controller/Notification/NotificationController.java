@@ -1,6 +1,6 @@
 package com.arquitecture.controller.Notification;
 
-import com.arquitecture.entity.Class;
+
 import com.arquitecture.entity.Notification;
 import com.arquitecture.service.NotificationService;
 import io.micronaut.http.HttpResponse;

@@ -21,7 +21,7 @@ public class RoleController {
 
     @Post(uri = "/save")
     @Produces(MediaType.APPLICATION_JSON)
-    public MutableHttpResponse<String> saveRole(@Body Role role) {
-        return HttpResponse.created(roleServices.saveRole(role));
+    public MutableHttpResponse<String> saveRole(@Body RoleSaveRequest roleSaveRequest) {
+        return HttpResponse.created(roleServices.saveRole(roleSaveRequest.toRole()));
     }
 }

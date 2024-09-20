@@ -76,7 +76,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: "#/components/schemas/Role"
+              $ref: "#/components/schemas/RoleSaveRequest"
         required: true
       responses:
         "200":
@@ -170,13 +170,19 @@ components:
           type: string
     Role:
       required:
-      - id
       - name
       type: object
       properties:
         id:
           type: integer
           format: int64
+        name:
+          type: string
+    RoleSaveRequest:
+      required:
+      - name
+      type: object
+      properties:
         name:
           type: string
     Statistic:
