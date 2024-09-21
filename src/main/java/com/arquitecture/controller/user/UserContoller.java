@@ -30,10 +30,10 @@ public class UserContoller {
         }
     }
 
-    @Get(uri = "/{email}")
+    @Get(uri = "/{id}")
     @Produces(MediaType.APPLICATION_JSON)
-    public MutableHttpResponse<User> getUserByEmail(@PathVariable String email) {
-        User user = userServices.getUserByEmail(email);
+    public MutableHttpResponse<User> getUserByEmail(@PathVariable Long id) {
+        User user = userServices.getUserById(id);
         return HttpResponse.ok(user);
     }
 
@@ -46,10 +46,10 @@ public class UserContoller {
     @Put(uri = "/add-grade")
     @Produces(MediaType.APPLICATION_JSON)
     public MutableHttpResponse<String> updateUser(@Body AddGradeToUserRequest addGradeToUserRequest) {
-        List<Grade> grades = addGradeToUserRequest.grades().stream()
-                .map(GradeId::toGrade)
-                .collect(Collectors.toList());
-        String response = userServices.addGradeToUser(addGradeToUserRequest.id(), grades);
+        /*List<Grade> grades = addGradeToUserRequest.grades().stream()
+                .map(grade -> new Grade(grade.id()))
+                .collect(Collectors.toList());*/
+        String response = userServices.addGradeToUser(addGradeToUserRequest.id(), addGradeToUserRequest.grades());
         if (response.equals("Class added to user")) {
             return HttpResponse.created(response);
         } else {

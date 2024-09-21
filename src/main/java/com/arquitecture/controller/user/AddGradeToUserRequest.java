@@ -9,6 +9,6 @@ import io.micronaut.serde.annotation.Serdeable;
 import java.util.List;
 
 @Serdeable.Deserializable
-public record AddGradeToUserRequest(Long id, List<GradeId> grades) {
+public record AddGradeToUserRequest(Long id, List<Long> grades) {
 }
 

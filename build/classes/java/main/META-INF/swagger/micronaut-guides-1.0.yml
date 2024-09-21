@@ -74,7 +74,7 @@ paths:
                 type: object
                 additionalProperties:
                   type: string
-  /roles/get-by-id:
+  /roles/get-porgrby-id:
     get:
       tags:
       - roles
@@ -191,17 +191,18 @@ paths:
             application/json:
               schema:
                 type: boolean
-  /users/{email}:
+  /users/{id}:
     get:
       tags:
       - Users
       operationId: getUserByEmail
       parameters:
-      - name: email
+      - name: id
         in: path
         required: true
         schema:
-          type: string
+          type: integer
+          format: int64
       responses:
         "200":
           description: getUserByEmail 200 response
@@ -223,7 +224,8 @@ components:
         grades:
           type: array
           items:
-            $ref: "#/components/schemas/GradeId"
+            type: integer
+            format: int64
     AttendanceGradeIdRequest:
       required:
       - id
@@ -281,14 +283,6 @@ components:
             $ref: "#/components/schemas/Notification"
         statistic:
           $ref: "#/components/schemas/Statistic"
-    GradeId:
-      required:
-      - id
-      type: object
-      properties:
-        id:
-          type: integer
-          format: int64
     GradeSaveRequest:
       required:
       - finalDate

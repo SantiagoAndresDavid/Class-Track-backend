@@ -40,7 +40,15 @@ public class User {
         this.email = email;
         this.password = password;
         this.roles = roles;
+    }
 
+    @ConstructorProperties({"name", "email", "password", "roles", "grades"})
+    public User(String name, String email, String password, @Nullable List<Role> roles, @Nullable List<Grade> grades) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.roles = roles;
+        this.grades = grades;
     }
     @ConstructorProperties({"id"})
     public User(Long id) {

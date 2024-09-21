@@ -1,5 +1,6 @@
 package com.arquitecture.data;
 
+import com.arquitecture.entity.Grade;
 import com.arquitecture.entity.Role;
 import com.arquitecture.entity.User;
 import io.micronaut.data.annotation.Query;
@@ -14,4 +15,7 @@ public interface UserRepository extends CrudRepository<User,Long> {
     User findByName(String name);
     User findByEmail(String email);
     List<Role> findDistinctRolesById(Long id);
+    List<Grade> findDistinctGradesById(Long id);
+    User getById(Long id);
+    void updateGradesById(Long id, List<Grade> grades);
 }

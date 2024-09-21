@@ -19,7 +19,7 @@ public class RoleController {
     @Produces(MediaType.APPLICATION_JSON)
     public Iterable<Role> getAllRoles() {return roleServices.getAllRoles();}
 
-    @Get(uri="/get-by-id")
+    @Get(uri="/get-porgrby-id")
     @Produces(MediaType.APPLICATION_JSON)
     public Role getRole() {return roleServices.getRoleById();}
 

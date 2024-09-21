@@ -1,5 +1,6 @@
 package com.arquitecture.service;
 
+import com.arquitecture.data.GradeRepository;
 import com.arquitecture.data.UserRepository;
 import com.arquitecture.entity.Grade;
 import com.arquitecture.entity.User;
@@ -20,6 +21,8 @@ public class UserServices {
     UserRepository userRepository;
     @Inject
     RoleServices roleServices;
+    @Inject
+    GradeRepository gradeRepository;
 
 
     public String saveUser(User user) {
@@ -38,22 +41,12 @@ public class UserServices {
         }
     }
 
-    public @NonNull User getUserById(String email) {
+    public User getUserById(Long id) {
         try {
-            User userResponse = userRepository.findByName(email);
+            User userResponse = userRepository.getById(id);
             userResponse.setRoles(userRepository.findDistinctRolesById(userResponse.getId()));
-               return userResponse;
-        } catch (Exception e) {
-            // Handle the exception or log it
-            return null;
-        }
-    }
-
-    public User getUserByEmail(String email) {
-        try {
-            String email2 = "string";
-            User user =  userRepository.findByName(email2);
-            return user;
+            userResponse.setGrades(userRepository.findDistinctGradesById(userResponse.getId()));
+            return userResponse;
         } catch (Exception e) {
             // Handle the exception or log it
             return null;
@@ -80,14 +73,6 @@ public class UserServices {
         return user;
     }
 
-    public String addGradeToUser(Long id, List<Grade> grades) {
-        try {
-            return "Class added to user";
-        } catch (Exception e) {
-            return "Error adding class to user: " + e.getMessage();
-        }
-    }
-
     public List<User> getAllUsers() {
         List<User> users = userRepository.findAll();
         for (User user : users) {
@@ -96,5 +81,23 @@ public class UserServices {
             }
         }
         return users;
+    }
+
+    public String addGradeToUser(Long id, List<Long> gradesId) {
+        try {
+            User user = userRepository.getById(id);
+            if (user != null) {
+                // Cargar las entidades Grade completas desde la base de datos
+                List<Grade> grades = gradeRepository.findByIdIn(gradesId);
+                user.setGrades(grades);
+                // Actualizar el usuario
+                userRepository.update(user);
+            } else {
+                throw new IllegalArgumentException("User not found with id: " + id);
+            }
+            return "Grade added to user";
+        } catch (Exception e) {
+            return "Error adding class to user: " + e.getMessage();
+        }
     }
 }
